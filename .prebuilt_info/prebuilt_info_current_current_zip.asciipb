@@ -1,18 +1,6 @@
 drops {
   android_build_drop {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    build_id: "T1009772"
-||||||| merged common ancestors
-    build_id: "T1010120"
-=======
     build_id: "T1010137"
->>>>>>> 8a6c39d47abb4f832e66591371d9443bee53f1a6
-||||||| 8a6c39d
-    build_id: "T1010137"
-=======
-    build_id: "T1010146"
->>>>>>> db5ea7f88319bd41ecbca552a80a75b71654ce2d
     target: "train_build"
     source_file: "mainline-sdks/for-latest-build/current/com.google.android.appsearch/sdk/appsearch-sdk-current.zip"
   }
