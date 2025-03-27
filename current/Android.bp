@@ -91,6 +91,7 @@ java_import {
     permitted_packages: [
         "com.android.server.appsearch",
         "com.google.android.icing",
+        "org.jspecify.annotations",
     ],
 }
 
