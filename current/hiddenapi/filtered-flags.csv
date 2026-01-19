@@ -1,4 +1,3 @@
-Landroid/app/appsearch/AppSearchAccount$Builder;->build()Landroid/app/appsearch/GenericDocument;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchBatchResult$Builder;-><init>()V,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchBatchResult$Builder;-><init>(Landroid/app/appsearch/AppSearchBatchResult;)V,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchBatchResult$Builder;->build()Landroid/app/appsearch/AppSearchBatchResult;,public-api,sdk,system-api,test-api
@@ -42,7 +41,6 @@ Landroid/app/appsearch/AppSearchResult;->RESULT_OK:I,public-api,sdk,system-api,t
 Landroid/app/appsearch/AppSearchResult;->RESULT_OUT_OF_SPACE:I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchResult;->RESULT_RATE_LIMITED:I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchResult;->RESULT_SECURITY_ERROR:I,public-api,sdk,system-api,test-api
-Landroid/app/appsearch/AppSearchResult;->RESULT_UNAVAILABLE:I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchResult;->RESULT_UNKNOWN_ERROR:I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchResult;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchResult;->getErrorMessage()Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -156,8 +154,8 @@ Landroid/app/appsearch/AppSearchSchema;->toString()Ljava/lang/String;,core-platf
 Landroid/app/appsearch/AppSearchSchema;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchSchemaCreator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchSchemaCreator;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
-Landroid/app/appsearch/AppSearchSession$$ExternalSyntheticLambda0;->accept(Ljava/lang/Object;)V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/app/appsearch/AppSearchSession$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchSession$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchSession$$ExternalSyntheticLambda1;->accept(Ljava/lang/Object;)V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchSession$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchSession$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchSession$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,sdk,system-api,test-api
@@ -931,7 +929,6 @@ Landroid/app/appsearch/exceptions/AppSearchException;->getResultCode()I,public-a
 Landroid/app/appsearch/exceptions/AppSearchException;->toAppSearchResult()Landroid/app/appsearch/AppSearchResult;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda100;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda101;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda11;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda12;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
