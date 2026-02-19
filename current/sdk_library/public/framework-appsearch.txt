@@ -814,6 +814,7 @@ package android.app.appsearch {
     method @NonNull public java.util.Map<java.lang.String,java.util.Set<android.app.appsearch.PackageIdentifier>> getSchemasVisibleToPackages();
     method @IntRange(from=1) public int getVersion();
     method public boolean isForceOverride();
+    field public static final int PRIVATE_COMPUTE_CORE_UID_ACCESS = 12; // 0xc
     field public static final int READ_ASSISTANT_APP_SEARCH_DATA = 6; // 0x6
     field public static final int READ_CALENDAR = 2; // 0x2
     field public static final int READ_CONTACTS = 3; // 0x3

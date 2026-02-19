@@ -707,6 +707,7 @@ Landroid/app/appsearch/SetSchemaRequest$Builder;->setPubliclyVisibleSchema(Ljava
 Landroid/app/appsearch/SetSchemaRequest$Builder;->setSchemaTypeDisplayedBySystem(Ljava/lang/String;Z)Landroid/app/appsearch/SetSchemaRequest$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest$Builder;->setSchemaTypeVisibilityForPackage(Ljava/lang/String;ZLandroid/app/appsearch/PackageIdentifier;)Landroid/app/appsearch/SetSchemaRequest$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest$Builder;->setVersion(I)Landroid/app/appsearch/SetSchemaRequest$Builder;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/SetSchemaRequest;->PRIVATE_COMPUTE_CORE_UID_ACCESS:I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->READ_ASSISTANT_APP_SEARCH_DATA:I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->READ_CALENDAR:I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->READ_CONTACTS:I,public-api,sdk,system-api,test-api
@@ -941,6 +942,8 @@ Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda103;->te
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda104;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda105;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda106;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda107;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda108;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda10;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda11;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/flags/CustomFeatureFlags$$ExternalSyntheticLambda12;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
