@@ -1,4 +1,15 @@
+Landroid/app/appsearch/AppSearchAccount$Builder;-><init>(Ljava/lang/String;Ljava/lang/String;)V,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount$Builder;->build()Landroid/app/appsearch/AppSearchAccount;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchAccount$Builder;->build()Landroid/app/appsearch/GenericDocument;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount$Builder;->setAccountId(Ljava/lang/String;)Landroid/app/appsearch/AppSearchAccount$Builder;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount$Builder;->setAccountName(Ljava/lang/String;)Landroid/app/appsearch/AppSearchAccount$Builder;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount$Builder;->setAccountType(Ljava/lang/String;)Landroid/app/appsearch/AppSearchAccount$Builder;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount;-><init>(Landroid/app/appsearch/GenericDocument;)V,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount;->SCHEMA:Landroid/app/appsearch/AppSearchSchema;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount;->SCHEMA_TYPE:Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount;->getAccountId()Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount;->getAccountName()Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/AppSearchAccount;->getAccountType()Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchBatchResult$Builder;-><init>()V,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchBatchResult$Builder;-><init>(Landroid/app/appsearch/AppSearchBatchResult;)V,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/AppSearchBatchResult$Builder;->build()Landroid/app/appsearch/AppSearchBatchResult;,public-api,sdk,system-api,test-api
@@ -292,11 +303,13 @@ Landroid/app/appsearch/GetSchemaResponse$Builder;->clearRequiredPermissionsForSc
 Landroid/app/appsearch/GetSchemaResponse$Builder;->clearSchemaTypeNotDisplayedBySystem(Ljava/lang/String;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse$Builder;->clearSchemaTypeVisibleToConfigs(Ljava/lang/String;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse$Builder;->clearSchemaTypeVisibleToPackages(Ljava/lang/String;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/GetSchemaResponse$Builder;->clearSchemaTypeWipeoutAccountPropertyPaths(Ljava/lang/String;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse$Builder;->clearSchemas()Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse$Builder;->setPubliclyVisibleSchema(Ljava/lang/String;Landroid/app/appsearch/PackageIdentifier;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse$Builder;->setRequiredPermissionsForSchemaTypeVisibility(Ljava/lang/String;Ljava/util/Set;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse$Builder;->setSchemaTypeVisibleToConfigs(Ljava/lang/String;Ljava/util/Set;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse$Builder;->setSchemaTypeVisibleToPackages(Ljava/lang/String;Ljava/util/Set;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/GetSchemaResponse$Builder;->setSchemaTypeWipeoutAccountPropertyPaths(Ljava/lang/String;Ljava/util/Set;)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse$Builder;->setVersion(I)Landroid/app/appsearch/GetSchemaResponse$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse;->getPubliclyVisibleSchemas()Ljava/util/Map;,public-api,sdk,system-api,test-api
@@ -305,6 +318,7 @@ Landroid/app/appsearch/GetSchemaResponse;->getSchemaTypesNotDisplayedBySystem()L
 Landroid/app/appsearch/GetSchemaResponse;->getSchemaTypesVisibleToConfigs()Ljava/util/Map;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse;->getSchemaTypesVisibleToPackages()Ljava/util/Map;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse;->getSchemas()Ljava/util/Set;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/GetSchemaResponse;->getSchemasWipeoutAccountPropertyPaths()Ljava/util/Map;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse;->getVersion()I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponse;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/GetSchemaResponseCreator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
@@ -706,6 +720,7 @@ Landroid/app/appsearch/SetSchemaRequest$Builder;->setMigrators(Ljava/util/Map;)L
 Landroid/app/appsearch/SetSchemaRequest$Builder;->setPubliclyVisibleSchema(Ljava/lang/String;Landroid/app/appsearch/PackageIdentifier;)Landroid/app/appsearch/SetSchemaRequest$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest$Builder;->setSchemaTypeDisplayedBySystem(Ljava/lang/String;Z)Landroid/app/appsearch/SetSchemaRequest$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest$Builder;->setSchemaTypeVisibilityForPackage(Ljava/lang/String;ZLandroid/app/appsearch/PackageIdentifier;)Landroid/app/appsearch/SetSchemaRequest$Builder;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/SetSchemaRequest$Builder;->setSchemaTypeWipeoutAccountPropertyPaths(Ljava/lang/String;Ljava/util/Set;Z)Landroid/app/appsearch/SetSchemaRequest$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest$Builder;->setVersion(I)Landroid/app/appsearch/SetSchemaRequest$Builder;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->PRIVATE_COMPUTE_CORE_UID_ACCESS:I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->READ_ASSISTANT_APP_SEARCH_DATA:I,public-api,sdk,system-api,test-api
@@ -722,6 +737,7 @@ Landroid/app/appsearch/SetSchemaRequest;->getSchemas()Ljava/util/Set;,public-api
 Landroid/app/appsearch/SetSchemaRequest;->getSchemasNotDisplayedBySystem()Ljava/util/Set;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->getSchemasVisibleToConfigs()Ljava/util/Map;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->getSchemasVisibleToPackages()Ljava/util/Map;,public-api,sdk,system-api,test-api
+Landroid/app/appsearch/SetSchemaRequest;->getSchemasWipeoutAccountPropertyPaths()Ljava/util/Map;,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->getVersion()I,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/app/appsearch/SetSchemaRequest;->isForceOverride()Z,public-api,sdk,system-api,test-api
