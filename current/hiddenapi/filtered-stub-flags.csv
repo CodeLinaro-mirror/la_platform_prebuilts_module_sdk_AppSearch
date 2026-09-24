@@ -140,10 +140,13 @@ Landroid/app/appsearch/AppSearchSchema$PropertyConfig;->toString()Ljava/lang/Str
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;-><init>(Ljava/lang/String;)V,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;->build()Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;->setCardinality(I)Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;,public-api,system-api,test-api
+Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;->setDeletePropagationType(I)Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;->setDescription(Ljava/lang/String;)Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;->setIndexingType(I)Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;->setJoinableValueType(I)Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;->setTokenizerType(I)Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig$Builder;,public-api,system-api,test-api
+Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->DELETE_PROPAGATION_TYPE_NONE:I,public-api,system-api,test-api
+Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->DELETE_PROPAGATION_TYPE_PROPAGATE_FROM:I,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->INDEXING_TYPE_EXACT_TERMS:I,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->INDEXING_TYPE_NONE:I,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->INDEXING_TYPE_PREFIXES:I,public-api,system-api,test-api
@@ -153,6 +156,7 @@ Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->TOKENIZER_TYPE_NON
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->TOKENIZER_TYPE_PLAIN:I,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->TOKENIZER_TYPE_RFC822:I,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->TOKENIZER_TYPE_VERBATIM:I,public-api,system-api,test-api
+Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->getDeletePropagationType()I,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->getIndexingType()I,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->getJoinableValueType()I,public-api,system-api,test-api
 Landroid/app/appsearch/AppSearchSchema$StringPropertyConfig;->getTokenizerType()I,public-api,system-api,test-api
