@@ -201,6 +201,9 @@ Landroid/app/appsearch/CommitBlobResponseCreator;->createFromParcel(Landroid/os/
 Landroid/app/appsearch/CommitBlobResponseCreator;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/app/appsearch/EmbeddingMatchInfoCreator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/app/appsearch/EmbeddingMatchInfoCreator;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/app/appsearch/EmbeddingVector$QuantizedData;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/app/appsearch/EmbeddingVector$QuantizedData;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/app/appsearch/EmbeddingVector$QuantizedData;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/app/appsearch/EmbeddingVector;-><init>([FLjava/lang/String;)V,public-api,system-api,test-api
 Landroid/app/appsearch/EmbeddingVector;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,system-api,test-api
 Landroid/app/appsearch/EmbeddingVector;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -399,6 +402,8 @@ Landroid/app/appsearch/PutDocumentsRequest$Builder;->addTakenActionGenericDocume
 Landroid/app/appsearch/PutDocumentsRequest$Builder;->build()Landroid/app/appsearch/PutDocumentsRequest;,public-api,system-api,test-api
 Landroid/app/appsearch/PutDocumentsRequest;->getGenericDocuments()Ljava/util/List;,public-api,system-api,test-api
 Landroid/app/appsearch/PutDocumentsRequest;->getTakenActionGenericDocuments()Ljava/util/List;,public-api,system-api,test-api
+Landroid/app/appsearch/QuantizedDataCreator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/app/appsearch/QuantizedDataCreator;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/app/appsearch/ReadOnlyGlobalSearchSession$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/app/appsearch/ReadOnlyGlobalSearchSession;->getByDocumentId(Ljava/lang/String;Ljava/lang/String;Landroid/app/appsearch/GetByDocumentIdRequest;Ljava/util/concurrent/Executor;Landroid/app/appsearch/BatchResultCallback;)V,public-api,system-api,test-api
 Landroid/app/appsearch/ReadOnlyGlobalSearchSession;->getSchema(Ljava/lang/String;Ljava/lang/String;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V,public-api,system-api,test-api
@@ -518,7 +523,9 @@ Landroid/app/appsearch/SearchResultCreator;->newArray(I)[Ljava/lang/Object;,publ
 Landroid/app/appsearch/SearchResultPage;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/app/appsearch/SearchResultPageCreator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/app/appsearch/SearchResultPageCreator;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/app/appsearch/SearchResults$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/app/appsearch/SearchResults$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/app/appsearch/SearchResults$2$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/app/appsearch/SearchResults;->close()V,core-platform-api,public-api,system-api,test-api
 Landroid/app/appsearch/SearchResults;->getNextPage(Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V,public-api,system-api,test-api
 Landroid/app/appsearch/SearchSessionUtil$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
